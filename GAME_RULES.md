@@ -7,7 +7,7 @@ Each player places one of their creatures free of cost Face down (only if they d
 Then both creatures are revealed, the player with the lowest defensive stats can go first. The first player does not draw, but is allowed all other moves as if the turn is set up normally.
 
 ## field
-
+```
 E - Effect card zone
 C - Creature zone
 D - Deck zone
@@ -16,6 +16,7 @@ I - Item card zone
 j - Job zone
 J - Job Deck zone
 X - Extra deck zone
+```
 ```
 [D][E][I][I][I][E][X]
 [A][E][C][C][C][E][J]
