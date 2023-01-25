@@ -100,6 +100,34 @@ A move has at least the following:
 
 Each move is a hard once per turn, unless specified that it's not. A move is required if there is an exclamation mark. Order of activation of effects is up the to the controller of said effects.
 
+### Creature Attributes
+- Ground
+- SciFi
+- Elemental
+- Magic
+- Shadow
+- Myth
+
+### Creature Types
+A type is not limited to 1 attribute, so there can be a ground animal card and a magic animal card.
+
+- Cybernetic: Creatures in the digital space
+- Animal: Creatures that reference existing animals
+- Ordinary: Creatures that represent humanoid ordinary tasks
+- Fighter: Creatures that represent humanoid beings with a fighting related role
+- Monster: Creatues that represent generic monsters, often from mythical lore
+- Bug: Creatures that represent insect-like monsters
+- Machine: Creatures that represent physical hardware related monsters
+- Alien: Creatures with a link to outer space
+- Undead: Creatures that have lore that cause them to have "risen from the dead"
+- Demon: "Evil" creatures that are linked to somewhat religious or aetherial lore.
+- Angelic: "Good" creatures that are linked to somewhat religious or aetherial lore
+- Enchanted: Creatures that have been created from magic
+- Wyvern: Creatures that represent larger lizards, like dragons
+- Flora: Creatures that have something to do with flowers, trees and other flora
+- Wizard: Creatures that create magic
+- Aquatic: Creatures that live in or near water
+
 ## Effect cards
 Effect cards are cards that have 1 specific effect.
 An effect card has a cost to play.
