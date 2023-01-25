@@ -1,4 +1,4 @@
-# New card game
+# Ecocadia TCG
 
 ## game setup
 At the start of the game each player selects 1 basic job card from their job pile and places that card face up on the board.
