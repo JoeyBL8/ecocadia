@@ -84,9 +84,9 @@ Each creature has a defense value. This value determines the minimal power requi
 
 Each creature has a set of resource gathering values. 
 These values consist of 3 parts:
-- The resource type, for example bugs fixed or stone mined.
-- The resource amount, 3 bugs fixed or 2 stone minded.
-- A set of 1-3 numbers that represent the chance to gather the resource.
+- The resource type, for example sugar or gems.
+- The resource amount, 3 sugar or 2 gems.
+- A set of 1-3 numbers[1-6] that represent the chance to gather the resource.
 
 There is a set of moves on each creature (at least 1). 
 A move has at least the following:
@@ -146,7 +146,20 @@ They remain on the field even if the creature leaves the field.
 They can leave the field by playing a replacement card or when a creature does not fit the requirements.
 
 ## Job cards
-A job card is a card that gives a reward during the Earning phase, based on the face up monsters and the dice roll. 
+A job card is a card that gives a reward during the Earning phase, based on the amount of resources you earned here.  
 A job card allows you to choose if any minimum is completed:
 - A point value, which allows you to pay more costs for cards.
 - A specific effect, like drawing a card, battle protection for a creature, etc.
+
+### Resource types
+- Sugar
+- Ember
+- Orbs
+- Blood
+- Time
+- Bolts
+- Souls
+- Glitches
+- Omni
+- Pearls
+- Gems
