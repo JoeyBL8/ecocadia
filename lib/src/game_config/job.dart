@@ -18,16 +18,16 @@ class Job extends Card {
 }
 
 class JobReward {
-  final int? coinReward;
+  final int? pointReward;
   final String? effectReward;
   final int cost;
-  JobReward({
+  const JobReward({
     required this.cost,
-    this.coinReward,
+    this.pointReward,
     this.effectReward,
-  }) : assert(!(coinReward == null && effectReward == null));
+  }) : assert(!(pointReward == null && effectReward == null));
 
   @override
   String toString() =>
-      'JobReward(coinReward: $coinReward, effectReward: $effectReward, cost: $cost)';
+      'JobReward(coinReward: $pointReward, effectReward: $effectReward, cost: $cost)';
 }
