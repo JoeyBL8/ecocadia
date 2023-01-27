@@ -11,6 +11,10 @@ class Job extends Card {
     required this.tier,
     required this.rewards,
   });
+
+  @override
+  String toString() =>
+      'Job(resourceType: $resourceType, tier: $tier, rewards: $rewards)';
 }
 
 class JobReward {
@@ -22,4 +26,8 @@ class JobReward {
     this.coinReward,
     this.effectReward,
   }) : assert(!(coinReward == null && effectReward == null));
+
+  @override
+  String toString() =>
+      'JobReward(coinReward: $coinReward, effectReward: $effectReward, cost: $cost)';
 }

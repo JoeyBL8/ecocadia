@@ -13,4 +13,9 @@ class Effect extends Card {
     required this.description,
     required this.moveType,
   });
+
+  @override
+  String toString() {
+    return 'Effect(cost: $cost, archetype: $archetype, description: $description, moveType: $moveType)';
+  }
 }

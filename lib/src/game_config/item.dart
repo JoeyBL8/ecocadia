@@ -1,4 +1,3 @@
-
 import 'card.dart';
 
 class Item extends Card {
@@ -15,4 +14,9 @@ class Item extends Card {
     required this.equipEffect,
     this.placementEffect,
   });
+
+  @override
+  String toString() {
+    return 'Item(archetype: $archetype, cost: $cost, requirement: $requirement, placementEffect: $placementEffect, equipEffect: $equipEffect)';
+  }
 }

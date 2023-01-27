@@ -1,5 +1,4 @@
-
-
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'card.dart';
 
 class Creature extends Card {
@@ -33,6 +32,11 @@ class Creature extends Card {
     required this.moves,
     required this.gatheringOpportunities,
   });
+
+  @override
+  String toString() {
+    return 'Creature(moves: $moves, archetype: $archetype, type: $type, attribute: $attribute, defence: $defence, cost: $cost, gatheringOpportunities: $gatheringOpportunities)';
+  }
 }
 
 class GatheringOpportunity {
@@ -49,6 +53,10 @@ class GatheringOpportunity {
     required this.amount,
     required this.chances,
   });
+
+  @override
+  String toString() =>
+      'GatheringOpportunity(resourceType: $resourceType, amount: $amount, chances: $chances)';
 }
 
 class Move {
@@ -72,6 +80,11 @@ class Move {
     required this.effect,
     this.hardOncePerTurn = true,
   });
+
+  @override
+  String toString() {
+    return 'Move(moveTypes: $moveTypes, cost: $cost, damage: $damage, effect: $effect, hardOncePerTurn: $hardOncePerTurn)';
+  }
 }
 
 class MoveType {
@@ -79,4 +92,7 @@ class MoveType {
   const MoveType({
     required this.name,
   });
+
+  @override
+  String toString() => 'MoveType(name: $name)';
 }
