@@ -1,15 +1,24 @@
 class Job {
   final String name;
-  final int cost;
-  final int coinReward;
-  final String? effectReward;
+  final String resourceType;
   final int tier;
+  final List<JobReward> rewards;
 
   const Job({
     required this.name,
-    required this.cost,
-    required this.coinReward,
+    required this.resourceType,
     required this.tier,
-    this.effectReward,
+    required this.rewards,
   });
+}
+
+class JobReward {
+  final int? coinReward;
+  final String? effectReward;
+  final int cost;
+  JobReward({
+    required this.cost,
+    this.coinReward,
+    this.effectReward,
+  }) : assert(!(coinReward == null && effectReward == null));
 }
