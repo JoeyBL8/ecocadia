@@ -1,11 +1,12 @@
-class Job {
-  final String name;
+import 'card.dart';
+
+class Job extends Card {
   final String resourceType;
   final int tier;
   final List<JobReward> rewards;
 
   const Job({
-    required this.name,
+    required super.name,
     required this.resourceType,
     required this.tier,
     required this.rewards,

@@ -1,9 +1,8 @@
-class Creature {
+import 'package:new_card_game/src/card.dart';
+
+class Creature extends Card {
   /// set of moves
   final List<Move> moves;
-
-  /// name
-  final String name;
 
   /// archetype
   final String archetype;
@@ -23,13 +22,13 @@ class Creature {
   /// The resource opportuninities when on field
   final List<GatheringOpportunity> gatheringOpportunities;
   const Creature({
-    required this.moves,
-    required this.name,
+    required super.name,
     required this.archetype,
     required this.type,
     required this.attribute,
-    required this.defence,
     required this.cost,
+    required this.defence,
+    required this.moves,
     required this.gatheringOpportunities,
   });
 }
