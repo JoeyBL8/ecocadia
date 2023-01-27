@@ -7,5 +7,5 @@ const popcorn = Effect(
   archetype: 'Generic',
   description: 'Send two Effect cards, one on your field and '
       'one on either field, to the Afterlife.',
-  moveType: [MoveTypes.ingnition],
+  moveType: [MoveTypes.ignition],
 );

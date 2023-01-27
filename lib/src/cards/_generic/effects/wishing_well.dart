@@ -7,5 +7,5 @@ const wishingWell = Effect(
   archetype: 'generic',
   description: 'Show your hand to your opponent. Then draw 3 cards.'
       'Then shuffle 2 cards back into your deck.',
-  moveType: [MoveTypes.ingnition],
+  moveType: [MoveTypes.ignition],
 );

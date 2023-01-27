@@ -7,5 +7,5 @@ const helloWorld = Effect(
   archetype: 'Cynet',
   description:
       'Revive one Cynet creature from the afterlife. Then, pay the resource cost',
-  moveType: [MoveTypes.ingnition],
+  moveType: [MoveTypes.ignition],
 );

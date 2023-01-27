@@ -3,7 +3,7 @@
 This document is a collection of archetypes and how they fit into the game
 
 ## Expawdition
-A Set of enchanted birds and dogs, where the birds search a dog and they have strong item cards for the dogs.
+A Set of Elemental birds and dogs, where the birds search a dog and they have strong item cards for the dogs.
 
 Grounded and Elemental Attributes
 Animal and Enchanted monster types

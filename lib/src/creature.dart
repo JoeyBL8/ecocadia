@@ -1,6 +1,6 @@
 class Creature {
   /// set of moves
-  final List<Move> move;
+  final List<Move> moves;
 
   /// name
   final String name;
@@ -22,8 +22,8 @@ class Creature {
 
   /// The resource opportuninities when on field
   final List<GatheringOpportunity> gatheringOpportunities;
-  Creature({
-    required this.move,
+  const Creature({
+    required this.moves,
     required this.name,
     required this.archetype,
     required this.type,
@@ -43,7 +43,7 @@ class GatheringOpportunity {
 
   /// the dice numbers resulting in resources
   final List<int> chances;
-  GatheringOpportunity({
+  const GatheringOpportunity({
     required this.resourceType,
     required this.amount,
     required this.chances,
@@ -52,7 +52,7 @@ class GatheringOpportunity {
 
 class Move {
   /// types of move (quick, continuous, etc)
-  final List<MoveType> moveType;
+  final List<MoveType> moveTypes;
 
   /// cost to activate the move
   final int cost;
@@ -64,8 +64,8 @@ class Move {
   final String effect;
 
   final bool hardOncePerTurn;
-  Move({
-    required this.moveType,
+  const Move({
+    required this.moveTypes,
     required this.cost,
     required this.damage,
     required this.effect,
