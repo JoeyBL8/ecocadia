@@ -1,5 +1,5 @@
-import 'package:new_card_game/src/cards/move_types.dart';
-import 'package:new_card_game/src/effect.dart';
+import 'package:new_card_game/src/game_config/cards/move_types.dart';
+import 'package:new_card_game/src/game_config/effect.dart';
 
 const doubleDeath = Effect(
   cost: 25,

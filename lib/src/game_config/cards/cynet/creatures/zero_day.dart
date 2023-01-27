@@ -1,5 +1,5 @@
-import 'package:new_card_game/src/cards/move_types.dart';
-import 'package:new_card_game/src/creature.dart';
+import 'package:new_card_game/src/game_config/cards/move_types.dart';
+import 'package:new_card_game/src/game_config/creature.dart';
 
 const cynetZeroDay = Creature(
   name: 'Zero Day',

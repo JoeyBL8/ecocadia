@@ -1,4 +1,6 @@
-import 'package:new_card_game/src/creature.dart';
+
+
+import 'package:new_card_game/src/game_config/creature.dart';
 
 class MoveTypes {
   static const MoveType quick = MoveType(name: 'quick');

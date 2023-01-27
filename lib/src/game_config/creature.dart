@@ -1,4 +1,6 @@
-import 'package:new_card_game/src/card.dart';
+
+
+import 'card.dart';
 
 class Creature extends Card {
   /// set of moves

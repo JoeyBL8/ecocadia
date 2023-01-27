@@ -1,6 +1,5 @@
-import 'package:new_card_game/src/creature.dart';
-
 import 'card.dart';
+import 'creature.dart';
 
 class Effect extends Card {
   final int cost;

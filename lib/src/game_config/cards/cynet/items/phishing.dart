@@ -1,4 +1,6 @@
-import 'package:new_card_game/src/item.dart';
+
+
+import 'package:new_card_game/src/game_config/item.dart';
 
 const cynetPhishing = Item(
   name: 'Phishing',
