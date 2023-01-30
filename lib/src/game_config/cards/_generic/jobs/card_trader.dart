@@ -1,8 +1,9 @@
+import 'package:new_card_game/src/game_config/creature.dart';
 import 'package:new_card_game/src/game_config/job.dart';
 
 const cardTrader = Job(
   name: 'Card Trader',
-  resourceType: 'Omni',
+  resourceType: ResourceType.omni,
   tier: 1,
   rewards: [
     JobReward(

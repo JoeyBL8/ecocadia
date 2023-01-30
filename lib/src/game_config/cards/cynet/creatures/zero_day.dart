@@ -5,7 +5,7 @@ const cynetZeroDay = Creature(
   name: 'Zero Day',
   archetype: 'Cynet',
   type: 'Cybernetic',
-  attribute: 'SciFi',
+  attribute: Attribute.sciFi,
   defence: 30,
   cost: 20,
   moves: [
@@ -33,7 +33,7 @@ const cynetZeroDay = Creature(
   ],
   gatheringOpportunities: [
     GatheringOpportunity(
-      resourceType: 'Glitch',
+      resourceType: ResourceType.glitch,
       amount: 2,
       chances: [1, 2, 3],
     ),

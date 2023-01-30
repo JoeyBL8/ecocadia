@@ -5,7 +5,7 @@ const cynetMalice = Creature(
   name: 'Malice',
   archetype: 'Cynet',
   type: 'Cybernetic',
-  attribute: 'SciFi',
+  attribute: Attribute.sciFi,
   defence: 40,
   cost: 10,
   moves: [
@@ -34,12 +34,12 @@ const cynetMalice = Creature(
   ],
   gatheringOpportunities: [
     GatheringOpportunity(
-      resourceType: 'Glitch',
+      resourceType: ResourceType.glitch,
       amount: 2,
       chances: [1, 2],
     ),
     GatheringOpportunity(
-      resourceType: 'Omni',
+      resourceType: ResourceType.glitch,
       amount: 2,
       chances: [6],
     ),

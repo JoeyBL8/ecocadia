@@ -12,7 +12,7 @@ class Creature extends Card {
   final String type;
 
   /// attribute
-  final String attribute;
+  final Attribute attribute;
 
   /// defence value
   final int defence;
@@ -22,6 +22,7 @@ class Creature extends Card {
 
   /// The resource opportuninities when on field
   final List<GatheringOpportunity> gatheringOpportunities;
+
   const Creature({
     required super.name,
     required this.archetype,
@@ -41,7 +42,7 @@ class Creature extends Card {
 
 class GatheringOpportunity {
   /// The type of resource provided
-  final String resourceType;
+  final ResourceType resourceType;
 
   /// The amount of the type of resource provided
   final int amount;
@@ -57,6 +58,39 @@ class GatheringOpportunity {
   @override
   String toString() =>
       'GatheringOpportunity(resourceType: $resourceType, amount: $amount, chances: $chances)';
+}
+
+enum Attribute {
+  ground(name: 'Ground'),
+  sciFi(name: 'SciFi'),
+  elemental(name: 'Elemental'),
+  magic(name: 'Magic'),
+  shadow(name: 'Shadow'),
+  myth(name: 'Myth');
+
+  final String name;
+  const Attribute({
+    required this.name,
+  });
+}
+
+enum ResourceType {
+  sugar(name: 'Sugar'),
+  ember(name: 'Ember'),
+  orbs(name: 'Orbs'),
+  blood(name: 'Blood'),
+  time(name: 'Time'),
+  bolts(name: 'Bolts'),
+  souls(name: 'Souls'),
+  glitch(name: 'Glitch'),
+  omni(name: 'Omni'),
+  pearls(name: 'Pearls'),
+  gems(name: 'Gems');
+
+  final String name;
+  const ResourceType({
+    required this.name,
+  });
 }
 
 class Move {

@@ -1,8 +1,9 @@
+import 'package:new_card_game/src/game_config/creature.dart';
 import 'package:new_card_game/src/game_config/job.dart';
 
 const bugTracker = Job(
   name: 'Bug Tracker',
-  resourceType: 'Glitch',
+  resourceType: ResourceType.glitch,
   tier: 2,
   rewards: [
     JobReward(

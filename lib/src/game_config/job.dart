@@ -1,7 +1,9 @@
+import 'package:new_card_game/src/game_config/creature.dart';
+
 import 'card.dart';
 
 class Job extends Card {
-  final String resourceType;
+  final ResourceType resourceType;
   final int tier;
   final List<JobReward> rewards;
 

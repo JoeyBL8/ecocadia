@@ -5,7 +5,7 @@ const cynetInjector = Creature(
   name: 'Injector',
   archetype: 'Cynet',
   type: 'Cybernetic',
-  attribute: 'SciFi',
+  attribute: Attribute.sciFi,
   cost: 40,
   defence: 70,
   moves: [
@@ -32,17 +32,17 @@ const cynetInjector = Creature(
   ],
   gatheringOpportunities: [
     GatheringOpportunity(
-      resourceType: 'Glitch',
+      resourceType: ResourceType.glitch,
       amount: 2,
       chances: [2, 4, 6],
     ),
     GatheringOpportunity(
-      resourceType: 'Glitch',
+      resourceType: ResourceType.glitch,
       amount: 1,
       chances: [3, 5],
     ),
     GatheringOpportunity(
-      resourceType: 'Omni',
+      resourceType: ResourceType.omni,
       amount: 1,
       chances: [4],
     ),
