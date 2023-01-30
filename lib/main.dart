@@ -5,6 +5,7 @@ import 'package:new_card_game/src/game_config/cards/_generic/effects/oh_boy.dart
 import 'package:new_card_game/src/game_config/cards/_generic/effects/party_change.dart';
 import 'package:new_card_game/src/game_config/cards/_generic/effects/popcorn.dart';
 import 'package:new_card_game/src/game_config/cards/_generic/effects/wishing_well.dart';
+import 'package:new_card_game/src/game_config/cards/cynet/creatures/injector.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/creatures/malice.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/creatures/zero_day.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/effects/bugs_galore.dart';
@@ -27,6 +28,9 @@ void main(List<String> args) {
     cynetZeroDay,
     cynetZeroDay,
     cynetZeroDay,
+    cynetInjector,
+    cynetInjector,
+    cynetInjector,
     cynetProbabilityModulator,
     cynetProbabilityModulator,
     cynetProbabilityModulator,
@@ -42,9 +46,6 @@ void main(List<String> args) {
     partyChange,
     partyChange,
     partyChange,
-    popcorn,
-    popcorn,
-    popcorn,
     boxOfThieves,
     boxOfThieves,
     boxOfThieves,

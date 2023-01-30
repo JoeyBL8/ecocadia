@@ -7,7 +7,7 @@ const issueTracker = Job(
   rewards: [
     JobReward(
       cost: 2,
-      pointReward: 10,
+      pointReward: 20,
     ),
     JobReward(
       cost: 3,
