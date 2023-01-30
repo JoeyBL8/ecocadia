@@ -8,6 +8,7 @@ class Job extends Card {
   final List<JobReward> rewards;
 
   const Job({
+    required super.image,
     required super.name,
     required this.resourceType,
     required this.tier,

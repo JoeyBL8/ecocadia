@@ -2,6 +2,7 @@ import 'package:new_card_game/src/game_config/creature.dart';
 import 'package:new_card_game/src/game_config/job.dart';
 
 const cardTrader = Job(
+  image: 'assets/jobs/generic_card_trader.png',
   name: 'Card Trader',
   resourceType: ResourceType.omni,
   tier: 1,

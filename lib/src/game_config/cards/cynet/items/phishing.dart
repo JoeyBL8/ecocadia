@@ -1,8 +1,7 @@
-
-
 import 'package:new_card_game/src/game_config/item.dart';
 
 const cynetPhishing = Item(
+  image: 'assets/items/cynet_phishing.png',
   name: 'Phishing',
   archetype: 'Cynet',
   cost: 20,

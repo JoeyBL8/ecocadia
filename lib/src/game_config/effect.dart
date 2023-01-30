@@ -7,6 +7,7 @@ class Effect extends Card {
   final String description;
   final List<MoveType> moveType;
   const Effect({
+    required super.image,
     required super.name,
     required this.archetype,
     required this.cost,

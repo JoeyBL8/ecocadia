@@ -39,7 +39,11 @@ const aNewBeginning = {
   issueTracker,
 
   // Expawdition
-
+  // effects
+  // items
+  // creatures
+  // jobs
+  
   // Generic
   // effects
   boxOfThieves,

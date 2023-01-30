@@ -2,6 +2,7 @@ import 'package:new_card_game/src/game_config/cards/move_types.dart';
 import 'package:new_card_game/src/game_config/effect.dart';
 
 const doubleDeath = Effect(
+  image: 'assets/effects/general_double_death.jpeg',
   cost: 25,
   name: 'Double death',
   archetype: 'Generic',

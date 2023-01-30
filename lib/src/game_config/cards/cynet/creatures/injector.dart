@@ -2,6 +2,7 @@ import 'package:new_card_game/src/game_config/cards/move_types.dart';
 import 'package:new_card_game/src/game_config/creature.dart';
 
 const cynetInjector = Creature(
+  image: 'assets/creatures/cynet_injector.png',
   name: 'Injector',
   archetype: 'Cynet',
   type: 'Cybernetic',
@@ -30,6 +31,8 @@ const cynetInjector = Creature(
           '3 "Zero Day" to your graveyard',
     ),
   ],
+  craftingValue: ResourceType.glitch,
+  craftingAmount: 3,
   gatheringOpportunities: [
     GatheringOpportunity(
       resourceType: ResourceType.glitch,

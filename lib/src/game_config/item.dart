@@ -7,6 +7,7 @@ class Item extends Card {
   final String? placementEffect;
   final String equipEffect;
   const Item({
+    required super.image,
     required super.name,
     required this.archetype,
     required this.cost,

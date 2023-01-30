@@ -2,6 +2,7 @@ import 'package:new_card_game/src/game_config/cards/move_types.dart';
 import 'package:new_card_game/src/game_config/creature.dart';
 
 const cynetMalice = Creature(
+  image: 'assets/creatures/cynet_malice.png',
   name: 'Malice',
   archetype: 'Cynet',
   type: 'Cybernetic',
@@ -32,6 +33,8 @@ const cynetMalice = Creature(
           'Then place this card face-down',
     ),
   ],
+  craftingValue: ResourceType.glitch,
+  craftingAmount: 3,
   gatheringOpportunities: [
     GatheringOpportunity(
       resourceType: ResourceType.glitch,

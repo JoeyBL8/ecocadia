@@ -2,6 +2,7 @@ import 'package:new_card_game/src/game_config/creature.dart';
 import 'package:new_card_game/src/game_config/job.dart';
 
 const issueTracker = Job(
+  image: 'assets/jobs/cynet_issue_tracker.png',
   name: 'Issue Tracker',
   resourceType: ResourceType.glitch,
   tier: 1,

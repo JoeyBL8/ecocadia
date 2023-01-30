@@ -3,7 +3,6 @@ import 'package:new_card_game/src/game/game_card.dart';
 import 'package:new_card_game/src/game_config/cards/_generic/effects/box_of_thieves.dart';
 import 'package:new_card_game/src/game_config/cards/_generic/effects/oh_boy.dart';
 import 'package:new_card_game/src/game_config/cards/_generic/effects/party_change.dart';
-import 'package:new_card_game/src/game_config/cards/_generic/effects/popcorn.dart';
 import 'package:new_card_game/src/game_config/cards/_generic/effects/wishing_well.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/creatures/injector.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/creatures/malice.dart';

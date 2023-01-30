@@ -2,6 +2,7 @@ import 'package:new_card_game/src/game_config/cards/move_types.dart';
 import 'package:new_card_game/src/game_config/effect.dart';
 
 const boxOfThieves = Effect(
+  image: 'assets/effects/general_box_of_thieves.jpeg',
   cost: 15,
   name: 'Box of Thieves',
   archetype: 'Generic',

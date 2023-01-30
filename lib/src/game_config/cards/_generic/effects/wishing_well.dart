@@ -2,6 +2,8 @@ import 'package:new_card_game/src/game_config/cards/move_types.dart';
 import 'package:new_card_game/src/game_config/effect.dart';
 
 const wishingWell = Effect(
+  // TODO: ADD IMAGE
+  image: '',
   cost: 25,
   name: 'Wishing well',
   archetype: 'generic',

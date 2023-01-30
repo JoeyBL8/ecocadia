@@ -2,6 +2,7 @@ import 'package:new_card_game/src/game_config/cards/move_types.dart';
 import 'package:new_card_game/src/game_config/creature.dart';
 
 const cynetZeroDay = Creature(
+  image: 'assets/creatures/cynet_zero_day.png',
   name: 'Zero Day',
   archetype: 'Cynet',
   type: 'Cybernetic',
@@ -31,6 +32,8 @@ const cynetZeroDay = Creature(
           '(you do not pay cost)',
     ),
   ],
+  craftingValue: ResourceType.glitch,
+  craftingAmount: 3,
   gatheringOpportunities: [
     GatheringOpportunity(
       resourceType: ResourceType.glitch,

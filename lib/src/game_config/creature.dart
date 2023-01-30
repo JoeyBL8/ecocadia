@@ -20,10 +20,15 @@ class Creature extends Card {
   /// summoning cost
   final int cost;
 
+  /// Crafting values
+  final ResourceType craftingValue;
+  final int craftingAmount;
+
   /// The resource opportuninities when on field
   final List<GatheringOpportunity> gatheringOpportunities;
 
   const Creature({
+    required super.image,
     required super.name,
     required this.archetype,
     required this.type,
@@ -31,6 +36,8 @@ class Creature extends Card {
     required this.cost,
     required this.defence,
     required this.moves,
+    required this.craftingValue,
+    required this.craftingAmount,
     required this.gatheringOpportunities,
   });
 
