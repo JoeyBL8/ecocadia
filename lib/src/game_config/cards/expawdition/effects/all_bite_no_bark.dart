@@ -2,8 +2,7 @@ import 'package:new_card_game/src/game_config/cards/move_types.dart';
 import 'package:new_card_game/src/game_config/effect.dart';
 
 const expawditionAllBiteNoBark = Effect(
-  // TODO: ADD IMAGE
-  image: '',
+  image: 'assets/effects/expawdition_all_bite_no_bark.png',
   name: 'All Bite no Bark',
   archetype: 'Expawdition',
   cost: 70,
