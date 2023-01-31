@@ -14,7 +14,7 @@ const expawditionExpedinguin = Creature(
       moveTypes: [MoveTypes.ignition],
       cost: 30,
       damage: 0,
-      effect: 'Next turn, at the start of the play phase: '
+      effect: 'During the second turn, at the start of the play phase: '
           'Place this card face down in the afterlife. '
           'Then, play one "Aquanine" from your deck or hand without cost.',
     ),

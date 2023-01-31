@@ -29,10 +29,12 @@ import 'package:new_card_game/src/game_config/cards/expawdition/effects/all_bite
 import 'package:new_card_game/src/game_config/cards/expawdition/effects/elemental_flock.dart';
 import 'package:new_card_game/src/game_config/cards/expawdition/effects/fetch.dart';
 import 'package:new_card_game/src/game_config/cards/expawdition/effects/heavenly_woofer.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/items/aerodive.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/items/chewbone.dart';
 
 /// The first set of the game.
 /// Consists of 54 unique cards.
-/// Currently 31 cards are planned, 23 slots are open.
+/// Currently 33 cards are planned, 21 slots are open.
 const aNewBeginning = {
   // Cynet
   // effects
@@ -57,6 +59,8 @@ const aNewBeginning = {
   expawditionAllBiteNoBark,
   expawditionElementalFlock,
   // items
+  expawditionAerodive,
+  expawditionChewbone,
   // creatures
   expawditionAquanine,
   expawditionArcheostrich,
