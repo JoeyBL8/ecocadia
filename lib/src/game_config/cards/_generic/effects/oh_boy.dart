@@ -8,6 +8,6 @@ const genericOhBoy = Effect(
   name: 'Oh Boy!',
   archetype: 'Generic',
   description:
-      'When your opponent activates a non-damaging monster move, cancel it.',
+      'When your opponent activates a non-damaging creature move, cancel it.',
   moveType: [MoveTypes.trigger],
 );

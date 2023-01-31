@@ -62,7 +62,7 @@ When a creature attacks a player, the creature will reduce the opposing player's
 
 When a creature attacks another creature, the damage is compared to the defence. 
 If the attack is lower, you remove the different from your points. 
-The defence of that monster is reduced by the attack by the attack value, until the end of this battle.
+The defence of that creature is reduced by the attack by the attack value, until the end of this battle.
 A new attack can be chained after the previous attack is completed to extend the battle.
 Playing a new card will cancel this battle and allow the attacked creature to heal.
 Only 1 creature can be attacked per battle, but multiple creatures can attack.
@@ -117,8 +117,8 @@ A type is not limited to 1 attribute, so there can be a ground animal card and a
 - Ordinary: Creatures that represent humanoid ordinary tasks
 - Fighter: Creatures that represent humanoid beings with a fighting related role
 - Monster: Creatues that represent generic monsters, often from mythical lore
-- Bug: Creatures that represent insect-like monsters
-- Machine: Creatures that represent physical hardware related monsters
+- Bug: Creatures that represent insect-like beings
+- Machine: Creatures that represent physical hardware related creatures
 - Alien: Creatures with a link to outer space
 - Undead: Creatures that have lore that cause them to have "risen from the dead"
 - Demon: "Evil" creatures that are linked to somewhat religious or aetherial lore.

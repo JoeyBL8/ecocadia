@@ -6,7 +6,7 @@ This document is a collection of archetypes and how they fit into the game
 A Set of Elemental birds and dogs, where the birds search a dog and they have strong item cards for the dogs.
 
 Grounded and Elemental Attributes
-Animal and Enchanted monster types
+Animal and Enchanted creature types
 
 ## Dillemethy
 A set of Angels and demons that can tag out with opposing creatures from the afterlife by moving to the afterlife face down.

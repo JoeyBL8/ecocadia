@@ -7,7 +7,7 @@ const cynetProbabilityModulator = Effect(
   name: 'Probability Modulator',
   archetype: 'Cynet',
   description: 'After the dice is thrown in the earnings phase: '
-      'Add one cynet monster to your hand '
+      'Add one cynet creature to your hand '
       'with at least one resource number equal to '
       'the dice throw',
   moveType: [MoveTypes.trigger],
