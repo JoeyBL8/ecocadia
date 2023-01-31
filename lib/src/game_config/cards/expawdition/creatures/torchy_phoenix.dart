@@ -18,8 +18,21 @@ const expawditionTorchyPhoenix = Creature(
           'Place this card face down in the afterlife. '
           'Then, play one "Bloodsniffer" from your deck or hand without cost.',
     ),
+    Move(
+      moveTypes: [MoveTypes.trigger],
+      cost: 10,
+      damage: 50,
+      effect: 'When this card is sent to the afterlife (face-up): '
+          'Remove 50 points from your opponent.',
+    ),
   ],
   craftingValue: ResourceType.orbs,
-  craftingAmount: 4,
-  gatheringOpportunities: [],
+  craftingAmount: 2,
+  gatheringOpportunities: [
+    GatheringOpportunity(
+      resourceType: ResourceType.orbs,
+      amount: 3,
+      chances: [5, 6],
+    ),
+  ],
 );

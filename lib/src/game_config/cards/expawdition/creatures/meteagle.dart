@@ -18,8 +18,21 @@ const expawditionMeteagle = Creature(
           'Place this card face down in the afterlife. '
           'Then, play one "Cloudasher" from your deck or hand without cost.',
     ),
+    Move(
+      moveTypes: [MoveTypes.trigger],
+      cost: 10,
+      damage: 0,
+      effect: 'When this card is sent to the afterlife (face-up): '
+          'Search one "Expawdition" item from your deck.',
+    ),
   ],
   craftingValue: ResourceType.orbs,
-  craftingAmount: 4,
-  gatheringOpportunities: [],
+  craftingAmount: 2,
+  gatheringOpportunities: [
+    GatheringOpportunity(
+      resourceType: ResourceType.orbs,
+      amount: 3,
+      chances: [4, 5],
+    ),
+  ],
 );
