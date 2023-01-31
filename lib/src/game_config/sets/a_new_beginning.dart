@@ -25,10 +25,14 @@ import 'package:new_card_game/src/game_config/cards/expawdition/creatures/digs_h
 import 'package:new_card_game/src/game_config/cards/expawdition/creatures/expedinguin.dart';
 import 'package:new_card_game/src/game_config/cards/expawdition/creatures/meteagle.dart';
 import 'package:new_card_game/src/game_config/cards/expawdition/creatures/torchy_phoenix.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/effects/all_bite_no_bark.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/effects/elemental_flock.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/effects/fetch.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/effects/heavenly_woofer.dart';
 
 /// The first set of the game.
 /// Consists of 54 unique cards.
-/// Currently 27 cards are planned, 27 slots are open.
+/// Currently 31 cards are planned, 23 slots are open.
 const aNewBeginning = {
   // Cynet
   // effects
@@ -48,6 +52,10 @@ const aNewBeginning = {
 
   // Expawdition
   // effects
+  expawditionFetch,
+  expawditionHeavenlyWoofer,
+  expawditionAllBiteNoBark,
+  expawditionElementalFlock,
   // items
   // creatures
   expawditionAquanine,
