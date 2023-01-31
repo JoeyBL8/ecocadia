@@ -17,10 +17,18 @@ import 'package:new_card_game/src/game_config/cards/cynet/items/phishing.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/items/viral_duplication.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/jobs/bug_tracker.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/jobs/issue_tracker.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/creatures/aquanine.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/creatures/archeostrich.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/creatures/bloodsniffer.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/creatures/cloudasher.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/creatures/digs_hund.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/creatures/expedinguin.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/creatures/meteagle.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/creatures/torchy_phoenix.dart';
 
 /// The first set of the game.
 /// Consists of 54 unique cards.
-/// Currently 19 cards are planned, 35 slots are open.
+/// Currently 27 cards are planned, 27 slots are open.
 const aNewBeginning = {
   // Cynet
   // effects
@@ -42,8 +50,16 @@ const aNewBeginning = {
   // effects
   // items
   // creatures
+  expawditionAquanine,
+  expawditionArcheostrich,
+  expawditionBloodsniffer,
+  expawditionCloudasher,
+  expawditionDigsHund,
+  expawditionExpedinguin,
+  expawditionMeteagle,
+  expawditionTorchyPhoenix,
   // jobs
-  
+
   // Generic
   // effects
   boxOfThieves,
