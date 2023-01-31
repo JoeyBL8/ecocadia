@@ -1,7 +1,7 @@
 import 'package:new_card_game/src/game_config/creature.dart';
 import 'package:new_card_game/src/game_config/job.dart';
 
-const cardMaster = Job(
+const genericCardMaster = Job(
   image: 'assets/jobs/generic_card_master.png',
   name: 'Card Master',
   resourceType: ResourceType.omni,

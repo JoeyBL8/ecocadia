@@ -5,6 +5,7 @@ import 'package:new_card_game/src/game_config/cards/_generic/effects/oh_boy.dart
 import 'package:new_card_game/src/game_config/cards/_generic/effects/party_change.dart';
 import 'package:new_card_game/src/game_config/cards/_generic/effects/popcorn.dart';
 import 'package:new_card_game/src/game_config/cards/_generic/effects/wishing_well.dart';
+import 'package:new_card_game/src/game_config/cards/_generic/items/life_insurance.dart';
 import 'package:new_card_game/src/game_config/cards/_generic/jobs/card_master.dart';
 import 'package:new_card_game/src/game_config/cards/_generic/jobs/card_trader.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/creatures/injector.dart';
@@ -34,7 +35,7 @@ import 'package:new_card_game/src/game_config/cards/expawdition/items/chewbone.d
 
 /// The first set of the game.
 /// Consists of 54 unique cards.
-/// Currently 33 cards are planned, 21 slots are open.
+/// Currently 34 cards are planned, 20 slots are open.
 const aNewBeginning = {
   // Cynet
   // effects
@@ -74,14 +75,16 @@ const aNewBeginning = {
 
   // Generic
   // effects
-  boxOfThieves,
-  doubleDeath,
-  floodgateOpen,
-  ohBoy,
-  partyChange,
-  popcorn,
-  wishingWell,
+  genericBoxOfThieves,
+  genericDoubleDeath,
+  genericFloodgateOpen,
+  genericOhBoy,
+  genericPartyChange,
+  genericPopcorn,
+  genericWishingWell,
   // jobs
-  cardMaster,
-  cardTrader,
+  genericCardMaster,
+  genericCardTrader,
+  // items
+  genericLifeInsurance,
 };
