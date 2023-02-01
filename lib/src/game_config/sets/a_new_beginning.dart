@@ -43,7 +43,7 @@ import 'package:new_card_game/src/game_config/cards/expawdition/jobs/rabbitchase
 
 /// The first set of the game.
 /// Consists of 54 unique cards.
-/// Currently 41 cards are planned, 13 slots are open.
+/// Currently 42 cards are planned, 12 slots are open.
 const aNewBeginning = {
   // Cynet
   // effects
