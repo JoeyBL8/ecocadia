@@ -9,7 +9,7 @@ const bugTracker = Job(
   rewards: [
     JobReward(
       cost: 1,
-      pointReward: 30,
+      pointReward: 50,
     ),
     JobReward(
       cost: 2,

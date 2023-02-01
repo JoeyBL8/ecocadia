@@ -66,14 +66,23 @@
 // }
 
 import 'package:flutter/material.dart';
+import 'package:new_card_game/src/game_config/sets/a_new_beginning.dart';
 import 'package:new_card_game/src/ui/card_widget.dart';
 
-void main() {
+void main(List<String> args) {
   runApp(
-    const MaterialApp(
+    MaterialApp(
       home: Scaffold(
-        body: CardWidget(
-          height: 10,
+        body: SingleChildScrollView(
+          child: Wrap(
+            children: [
+              for (var card in aNewBeginning) ...[
+                CardWidget(
+                  card: card,
+                ),
+              ],
+            ],
+          ),
         ),
       ),
     ),

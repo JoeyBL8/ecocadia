@@ -11,12 +11,15 @@ import 'package:new_card_game/src/game_config/cards/_generic/effects/wishing_wel
 import 'package:new_card_game/src/game_config/cards/_generic/items/life_insurance.dart';
 import 'package:new_card_game/src/game_config/cards/_generic/jobs/card_master.dart';
 import 'package:new_card_game/src/game_config/cards/_generic/jobs/card_trader.dart';
+import 'package:new_card_game/src/game_config/cards/_generic/jobs/nurse.dart';
+import 'package:new_card_game/src/game_config/cards/cynet/creatures/digiwipe.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/creatures/injector.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/creatures/malice.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/creatures/zero_day.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/effects/bugs_galore.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/effects/hello_world.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/effects/probability_modulator.dart';
+import 'package:new_card_game/src/game_config/cards/cynet/effects/ransomware.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/items/phishing.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/items/viral_duplication.dart';
 import 'package:new_card_game/src/game_config/cards/cynet/jobs/bug_tracker.dart';
@@ -35,16 +38,19 @@ import 'package:new_card_game/src/game_config/cards/expawdition/effects/fetch.da
 import 'package:new_card_game/src/game_config/cards/expawdition/effects/heavenly_woofer.dart';
 import 'package:new_card_game/src/game_config/cards/expawdition/items/aerodive.dart';
 import 'package:new_card_game/src/game_config/cards/expawdition/items/chewbone.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/jobs/birdcatcher.dart';
+import 'package:new_card_game/src/game_config/cards/expawdition/jobs/rabbitchaser.dart';
 
 /// The first set of the game.
 /// Consists of 54 unique cards.
-/// Currently 37 cards are planned, 17 slots are open.
+/// Currently 41 cards are planned, 13 slots are open.
 const aNewBeginning = {
   // Cynet
   // effects
   cynetBugsGalore,
   cynetProbabilityModulator,
   cynetHelloWorld,
+  cynetRansomware,
   // items
   cynetPhishing,
   cynetViralDuplication,
@@ -52,6 +58,7 @@ const aNewBeginning = {
   cynetInjector,
   cynetMalice,
   cynetZeroDay,
+  cynetDigiwipe,
   // jobs
   bugTracker,
   issueTracker,
@@ -75,6 +82,8 @@ const aNewBeginning = {
   expawditionMeteagle,
   expawditionTorchyPhoenix,
   // jobs
+  expawditionBirdcatcher,
+  expawditionRabbitChaser,
 
   // Generic
   // effects
@@ -88,6 +97,7 @@ const aNewBeginning = {
   // jobs
   genericCardMaster,
   genericCardTrader,
+  genericNurse,
   // items
   genericLifeInsurance,
   // creatures

@@ -2,7 +2,7 @@ import 'package:new_card_game/src/game_config/item.dart';
 
 const genericLifeInsurance = Item(
   // TODO: ADD IMAGE
-  image: '',
+  image: 'assets/unknown.png',
   name: 'Life Insurance',
   archetype: 'Generic',
   cost: 50,

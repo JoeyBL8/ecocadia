@@ -3,7 +3,7 @@ import 'package:new_card_game/src/game_config/creature.dart';
 
 const genericTreeOfWisdom = Creature(
   // TODO: ADD IMAGE
-  image: '',
+  image: 'assets/unknown.png',
   name: 'Tree of wisdom',
   archetype: 'Generic',
   type: 'Flora',

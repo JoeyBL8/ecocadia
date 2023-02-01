@@ -3,7 +3,7 @@ import 'package:new_card_game/src/game_config/creature.dart';
 
 const genericDoubleDecker = Creature(
   // TODO: ADD IMAGE
-  image: '',
+  image: 'assets/unknown.png',
   name: 'Double Decker',
   archetype: 'Generic',
   type: 'Machine',

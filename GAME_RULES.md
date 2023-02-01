@@ -160,7 +160,7 @@ A job card allows you to choose if any minimum is completed:
 - Time
 - Bolts
 - Souls
-- Glitches
+- Glitch
 - Omni - This counts as any resource
 - Pearls
 - Gems

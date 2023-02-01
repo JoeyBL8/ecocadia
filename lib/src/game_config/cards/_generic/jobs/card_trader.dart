@@ -8,8 +8,8 @@ const genericCardTrader = Job(
   tier: 1,
   rewards: [
     JobReward(
-      cost: 3,
-      pointReward: 50,
+      cost: 4,
+      pointReward: 70,
     ),
     JobReward(
       cost: 6,

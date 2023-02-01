@@ -3,7 +3,7 @@ import 'package:new_card_game/src/game_config/effect.dart';
 
 const genericOhBoy = Effect(
   // TODO: ADD IMAGE
-  image: '',
+  image: 'assets/unknown.png',
   cost: 15,
   name: 'Oh Boy!',
   archetype: 'Generic',

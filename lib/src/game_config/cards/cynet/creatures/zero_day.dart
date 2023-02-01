@@ -19,7 +19,7 @@ const cynetZeroDay = Creature(
     ),
     Move(
       moveTypes: [MoveTypes.attack],
-      cost: 0,
+      cost: 20,
       damage: 30,
       effect: 'Damage is increased with 10 for each "Zero Day" on your field',
     ),

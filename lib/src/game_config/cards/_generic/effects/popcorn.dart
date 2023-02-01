@@ -3,7 +3,7 @@ import 'package:new_card_game/src/game_config/effect.dart';
 
 const genericPopcorn = Effect(
   // TODO: ADD IMAGE
-  image: '',
+  image: 'assets/unknown.png',
   cost: 10,
   name: 'Popcorn',
   archetype: 'Generic',

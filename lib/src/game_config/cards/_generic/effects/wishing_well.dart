@@ -3,7 +3,7 @@ import 'package:new_card_game/src/game_config/effect.dart';
 
 const genericWishingWell = Effect(
   // TODO: ADD IMAGE
-  image: '',
+  image: 'assets/unknown.png',
   cost: 25,
   name: 'Wishing well',
   archetype: 'generic',
