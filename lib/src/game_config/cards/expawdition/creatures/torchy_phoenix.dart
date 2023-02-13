@@ -25,6 +25,12 @@ const expawditionTorchyPhoenix = Creature(
       effect: 'When this card is sent to the afterlife (face-up): '
           'Remove 50 points from your opponent.',
     ),
+    Move(
+      moveTypes: [MoveTypes.attack],
+      cost: 10,
+      damage: 35,
+      effect: '- Heatwave',
+    ),
   ],
   craftingValue: ResourceType.orbs,
   craftingAmount: 2,

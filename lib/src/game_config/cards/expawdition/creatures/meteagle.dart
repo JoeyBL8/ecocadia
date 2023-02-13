@@ -25,6 +25,12 @@ const expawditionMeteagle = Creature(
       effect: 'When this card is sent to the afterlife (face-up): '
           'Search one "Expawdition" item from your deck.',
     ),
+    Move(
+      moveTypes: [MoveTypes.attack],
+      cost: 10,
+      damage: 20,
+      effect: '- Wind gust',
+    ),
   ],
   craftingValue: ResourceType.orbs,
   craftingAmount: 2,

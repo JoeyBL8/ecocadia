@@ -1,10 +1,12 @@
 # Ecocadia TCG
 
 ## game setup
-At the start of the game each player selects 1 basic job card from their job pile and places that card face up on the board.
-Then 6 cards are drawn.
-Each player places one of their creatures free of cost Face down (only if they do not have special appearance requirements).
-Then both creatures are revealed, the player with the lowest defensive stats can go first. The first player does not draw, but is allowed all other moves as if the turn is set up normally.
+Each player draws 6 cards.
+if either player does not have a creature in hand, they can show the hand, and then reshuffle and redraw. 
+At the start of the game each player selects 1 basic job card from their job pile and places that card face-down on the board.
+Each player places one of their creatures Face down (only if they do not have special appearance requirements).
+Then both creatures are revealed, the players pay the cost and the player with the highers defensive stats can go first. 
+The first player can draw, but all damaging moves will result in 0 damage done.
 
 ## field
 ```
@@ -164,3 +166,14 @@ A job card allows you to choose if any minimum is completed:
 - Omni - This counts as any resource
 - Pearls
 - Gems
+
+## Additional rules
+- Any card mentioning x amount of turns, will start counting from the next turn. EG:
+Archeostrich use its ignition to complete after 2 turns, resulting in turn 1 being the opposing player's turn and turn 2 being your turn.
+- Rule of replacement: If you try to play a card, but there is no spot, you can play that card by sending the other card to the afterlife. In case it is a job card, you place the card back into the owners job deck and shuffle it.
+- After searching any card from your deck, you are required to shuffle it.
+- Any action that results in you adding a card from your deck to your hand is considered a draw effect, meaning a card like "Box of thieves" can trigger.
+- Stealing a card means you get to select a card in the opponents hand to discard.
+- Stealing points means that you remove points from your opponent and add those to yours.
+- All creature moves can be used once per card name per turn, except the attack and defensive moves. Those moves can only be used once per turn per card. Example:
+You can use the attack of "Zero Day" on each copy of the card, but you cannot use the Quick Move of "Digshund" twice if you have 2 copies on the field.

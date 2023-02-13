@@ -25,6 +25,12 @@ const expawditionExpedinguin = Creature(
       effect: 'When this card is sent to the afterlife (face-up): '
           'Search one "Expawdition" effect from your deck.',
     ),
+    Move(
+      moveTypes: [MoveTypes.attack],
+      cost: 10,
+      damage: 40,
+      effect: '- Freeze',
+    ),
   ],
   craftingValue: ResourceType.orbs,
   craftingAmount: 2,

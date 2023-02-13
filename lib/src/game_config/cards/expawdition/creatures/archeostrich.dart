@@ -25,6 +25,12 @@ const expawditionArcheostrich = Creature(
       effect: 'When this card is sent to the afterlife (face-up): '
           'Search one "expawdition" creature from your deck.',
     ),
+    Move(
+      moveTypes: [MoveTypes.attack],
+      cost: 10,
+      damage: 30,
+      effect: '- throws dirt',
+    ),
   ],
   craftingValue: ResourceType.orbs,
   craftingAmount: 2,

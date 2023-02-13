@@ -29,12 +29,12 @@ const cynetDigiwipe = Creature(
     ),
   ],
   craftingValue: ResourceType.glitch,
-  craftingAmount: 10,
+  craftingAmount: 5,
   gatheringOpportunities: [
     GatheringOpportunity(
       resourceType: ResourceType.glitch,
       amount: 2,
-      chances: [1, 2, 3],
+      chances: [2, 4, 6],
     ),
   ],
 );
