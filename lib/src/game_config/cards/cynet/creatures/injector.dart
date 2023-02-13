@@ -27,8 +27,8 @@ const cynetInjector = Creature(
       moveTypes: [MoveTypes.trigger],
       cost: 20,
       damage: 0,
-      effect: 'If this card is sent to the graveyard, you can send up to '
-          '3 "Zero Day" to your graveyard',
+      effect: 'If this card is sent to the afterlife, you can send up to '
+          '3 "Zero Day" to your afterlife',
     ),
   ],
   craftingValue: ResourceType.glitch,
