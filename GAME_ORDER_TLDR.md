@@ -28,3 +28,12 @@ A quick summary of the flow of the game
 ## Win conditions:
 - Opponent's Points reach 0
 - Opponent has no card to draw at start of draw phase
+
+## quick rules
+- Rule of replacement: Cards can be replaced when there is no space. 
+Jobs go to job deck when replaced, other go to the afterlife.
+- Drawing: Adding any card from deck to hand.
+- Cost is paid immediately
+- Stealing a card means you get to select a card in the opponents hand to discard.
+- Stealing points means that you remove points from your opponent and add those to yours.
+- All creature moves can be used once per card name per turn, except the attack and defensive moves: those moves can only be used once per turn per card.
